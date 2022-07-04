@@ -1,0 +1,56 @@
+h2 {
+    font-size: 38px;
+}
+
+p {
+    text-align: justify;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.flexible_container {
+    display: flex;
+
+}
+
+.gradient_text {
+    color: tomato;
+}
+
+.btn_style {
+    background-image: linear-gradient(red, green);
+    color: #fff;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.banner_left {
+    width: 50%;
+    padding-left: 7%;
+}
+
+.banner_right {
+    width: 50%;
+    padding-left: 7%;
+}
+
+.banner_right img {
+    width: 75%;
+}
+
+.about_content {
+    width: 50%;
+    padding-left: 7%;
+
+}
+
+.about_content
