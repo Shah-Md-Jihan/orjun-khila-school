@@ -13,11 +13,15 @@ body {
 
 .flexible_container {
     display: flex;
-
+    margin-bottom: 100px;
 }
 
 .gradient_text {
     color: tomato;
+}
+
+.stl_underline {
+    border-bottom: 2px solid green;
 }
 
 .btn_style {
@@ -26,6 +30,8 @@ body {
     padding: 10px 40px;
     text-decoration: none;
     font-weight: 700;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
 }
 
 .banner {
@@ -36,6 +42,10 @@ body {
 .banner_left {
     width: 50%;
     padding-left: 7%;
+}
+
+.banner_left p {
+    margin-bottom: 30px;
 }
 
 .banner_right {
@@ -53,4 +63,33 @@ body {
 
 }
 
-.about_content
+.about_content img {
+    width: 75%;
+}
+
+.min_content {
+    padding-right: 7%;
+}
+
+.staff_content {
+    width: 75%;
+}
+
+.staff_min_content {
+    padding-left: 7%;
+}
+
+.staff_min_content img {
+    width: 100%;
+
+}
+
+.notice {
+    width: 25%;
+}
+
+.staff_content_border {
+    border-bottom: 2px solid green;
+    margin-left: 7%;
+    margin-right: 7%;
+}
