@@ -57,9 +57,12 @@ body {
     width: 75%;
 }
 
+#about {
+    padding: 0 7%;
+}
+
 .about_content {
     width: 50%;
-    padding-left: 7%;
 
 }
 
@@ -71,25 +74,51 @@ body {
     padding-right: 7%;
 }
 
-.staff_content {
-    width: 75%;
+#teacher_blog {
+    padding: 0 7%;
 }
 
-.staff_min_content {
-    padding-left: 7%;
+.teach_blog_heading h2 {
+    border-bottom: 2px solid green;
+    text-align: center;
 }
 
-.staff_min_content img {
+.teach_blog {
+    width: 25%;
+    padding: 10px 30px;
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+
+.teach_blog img {
     width: 100%;
+}
 
+.teach_blog h3 a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.teach_blog h3 a:hover {
+    color: red;
 }
 
 .notice {
     width: 25%;
+    padding: 0px 30px;
 }
 
-.staff_content_border {
+.notice h3 {
+    font-size: 22px;
     border-bottom: 2px solid green;
-    margin-left: 7%;
-    margin-right: 7%;
+    font-weight: 600;
+}
+
+.notice h6 a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.notice h6 a:hover {
+    color: red;
 }
