@@ -97,10 +97,15 @@ body {
 .teach_blog h3 a {
     font-size: 18px;
     text-decoration: none;
+
 }
 
 .teach_blog h3 a:hover {
     color: red;
+}
+
+.teach_blog small {
+    padding-bottom: 20px;
 }
 
 .notice {
