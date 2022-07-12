@@ -2,11 +2,6 @@ h2 {
     font-size: 38px;
 }
 
-p {
-    text-align: justify;
-    color: #000000;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -74,6 +69,9 @@ body {
 
 .banner_left p {
     margin-bottom: 30px;
+    color: #000;
+    text-align: justify;
+    font-size: 16px;
 }
 
 .banner_right {
@@ -100,6 +98,12 @@ body {
 
 .min_content {
     padding-right: 7%;
+}
+
+.min_content p {
+    color: #000;
+    text-align: justify;
+    font-size: 16px;
 }
 
 #teacher_blog {
