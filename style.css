@@ -122,3 +122,16 @@ body {
 .notice h6 a:hover {
     color: red;
 }
+
+.footer {
+    background-color: tomato;
+    min-height: 150px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.footer h3,
+p {
+    text-align: center;
+    color: #fff;
+}
